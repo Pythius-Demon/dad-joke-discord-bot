@@ -5,6 +5,7 @@
  */
 const fetch = require("node-fetch");
 const Discord = require("discord.js");
+const Discord = require("keep_alive.js");
 const client = new Discord.Client();
 
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
